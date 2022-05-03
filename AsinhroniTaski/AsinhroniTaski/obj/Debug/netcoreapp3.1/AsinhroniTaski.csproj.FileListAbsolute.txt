@@ -1,0 +1,14 @@
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\netcoreapp3.1\AsinhroniTaski.csproj.AssemblyReference.cache
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\netcoreapp3.1\AsinhroniTaski.GeneratedMSBuildEditorConfig.editorconfig
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\netcoreapp3.1\AsinhroniTaski.AssemblyInfoInputs.cache
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\netcoreapp3.1\AsinhroniTaski.AssemblyInfo.cs
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\netcoreapp3.1\AsinhroniTaski.csproj.CoreCompileInputs.cache
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\bin\Debug\netcoreapp3.1\AsinhroniTaski.exe
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\bin\Debug\netcoreapp3.1\AsinhroniTaski.deps.json
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\bin\Debug\netcoreapp3.1\AsinhroniTaski.runtimeconfig.json
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\bin\Debug\netcoreapp3.1\AsinhroniTaski.runtimeconfig.dev.json
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\bin\Debug\netcoreapp3.1\AsinhroniTaski.dll
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\bin\Debug\netcoreapp3.1\AsinhroniTaski.pdb
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\netcoreapp3.1\AsinhroniTaski.dll
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\netcoreapp3.1\AsinhroniTaski.pdb
+C:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\netcoreapp3.1\AsinhroniTaski.genruntimeconfig.cache
