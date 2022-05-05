@@ -1,0 +1,2 @@
+C:\RPA22\ProdajalnaArtiklov\ProdajalnaArtiklov\obj\Debug\ProdajalnaArtiklov.csproj.AssemblyReference.cache
+C:\RPA22\ProdajalnaArtiklov\ProdajalnaArtiklov\obj\Debug\ProdajalnaArtiklov.csproj.CoreCompileInputs.cache
