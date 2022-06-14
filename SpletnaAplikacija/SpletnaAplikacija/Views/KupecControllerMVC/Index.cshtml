@@ -1,0 +1,63 @@
+﻿@model IEnumerable<SpletnaAplikacija.Models.KUPEC>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.KUP_PRIIMEK)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KUP_IME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KUP_ZAČ)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KUP_PODROČJE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KUP_TELEFON)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KUP_STANJE)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.KUP_PRIIMEK)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KUP_IME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KUP_ZAČ)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KUP_PODROČJE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KUP_TELEFON)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KUP_STANJE)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.KUP_KODA }) |
+            @Html.ActionLink("Details", "Details", new { id=item.KUP_KODA }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.KUP_KODA })
+        </td>
+    </tr>
+}
+
+</table>

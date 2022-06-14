@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="Učulnica.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Učulnica"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ListView Name="masterListView" IsItemClickEnabled="True" ItemsSource="{x:Bind VsaPoglavja}" 
+                  ItemClick="masterListView_ItemClick">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="local:Poglavja">
+                    <StackPanel Orientation="Vertical" Margin="10">
+                        <TextBlock Text="{x:Bind name}" FontSize="30"/>
+                        <TextBlock Text="{x:Bind summary}" Margin="10,0,0,0" FontSize="20" Foreground="Gray"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+        <ListView Grid.Row="1" Name="detailListView" IsItemClickEnabled="True" ItemsSource="{x:Bind Vsebina}" 
+                  ItemClick="detailListView_ItemClick">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="local:Module">
+                    <StackPanel Margin="10" Orientation="Horizontal">
+                        <Image Source="{x:Bind modicon}" Width="50" Height="20"/>
+                        <TextBlock Text="{x:Bind name}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+        <!--Loading ring-->
+        <ProgressRing Name="mojP" Width="100" Height="100" Foreground="Gray" HorizontalAlignment="Center"
+                      VerticalAlignment="Center"/>
+    </Grid>
+</Page>

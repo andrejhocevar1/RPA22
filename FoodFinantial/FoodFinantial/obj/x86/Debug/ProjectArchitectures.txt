@@ -1,0 +1,1 @@
+C:\RPA22\FoodFinantial\FoodFinantial\FoodFinantial.csproj;x86

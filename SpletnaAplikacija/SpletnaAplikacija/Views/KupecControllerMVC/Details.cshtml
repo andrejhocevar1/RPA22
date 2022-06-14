@@ -1,0 +1,66 @@
+﻿@model SpletnaAplikacija.Models.KUPEC
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>KUPEC</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.KUP_PRIIMEK)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KUP_PRIIMEK)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KUP_IME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KUP_IME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KUP_ZAČ)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KUP_ZAČ)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KUP_PODROČJE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KUP_PODROČJE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KUP_TELEFON)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KUP_TELEFON)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KUP_STANJE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KUP_STANJE)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.KUP_KODA }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

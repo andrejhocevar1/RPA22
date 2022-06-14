@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpletnaAplikacija", "SpletnaAplikacija\SpletnaAplikacija.csproj", "{8D589FA7-62EF-45E4-B239-958786493DBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D589FA7-62EF-45E4-B239-958786493DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D589FA7-62EF-45E4-B239-958786493DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D589FA7-62EF-45E4-B239-958786493DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D589FA7-62EF-45E4-B239-958786493DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45158803-A7F9-460E-A1F8-F30C60AB4A9A}
+	EndGlobalSection
+EndGlobal

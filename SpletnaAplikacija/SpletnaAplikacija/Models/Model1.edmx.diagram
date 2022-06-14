@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e3c8b6b935934e2c9cdfb46bf4caf672" Name="Diagram1">
+        <EntityTypeShape EntityType="Baza.DOBAVITELJ" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baza.KUPEC" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baza.PRODUKT" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baza.RAČUN" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baza.VRSTICA" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="Baza.FK_PRODUKT_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Baza.FK_RAČUN_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Baza.FK_VRSTICA_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="Baza.FK_VRSTICA_ToTable" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,1 @@
+C:\RPA22\VezanjeKontakti\VezanjeKontakti\VezanjeKontakti.csproj;x86
